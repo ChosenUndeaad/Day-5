@@ -1,1 +1,124 @@
-/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* MAIN */
+
+body {
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: 1.65;
+  text-align: center;
+  color: rgb(32, 32, 32);
+
+  max-width: 500px;
+  margin: auto;
+}
+
+h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  line-height: 1em;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin: 1em;
+}
+
+p {
+  margin: 1em;
+}
+/* HEADER */
+
+header {
+  background-color: black;
+  padding: 2em;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#logo {
+  width: 10em;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* BODY */
+#top-box {
+  background-image: url(../images/banner.jpg);
+  padding: 2em;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  display: inline-block;
+  padding: 1em;
+  cursor: pointer;
+}
+
+#round {
+  border-radius: 50em;
+  margin: auto;
+  width: 70%;
+}
+
+/* SMALL BOXES */
+
+.small-box {
+  border: 2px rgb(230, 230, 230) solid;
+  border-radius: 10px;
+  margin: 2em;
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.quotes {
+  background-color: #e22d0e;
+  color: white;
+  padding: 1em;
+}
+
+.quotes h1 {
+  color: white;
+}
+
+.italic {
+  font-style: italic;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  padding: 1em;
+}
+
+footer a {
+  color: white;
+  padding: 1em;
+}
+footer p {
+  line-height: 0.5em;
+  font-weight: lighter;
+}
+
+footer h1 {
+  color: white;
+}
