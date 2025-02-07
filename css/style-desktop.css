@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* MAIN */
+
+body {
+  font-family: "Open Sans", serif;
+  font-size: 1.2rem;
+  font-style: normal;
+  line-height: 1.65;
+  text-align: center;
+  color: rgb(32, 32, 32);
+
+  margin: auto;
+  min-width: 1366px;
+  max-width: 1920px;
+}
+
+h1 {
+  color: #25a2c3;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  line-height: 1em;
+  font-size: 2.5em;
+}
+
+h3 {
+  color: #25a2c3;
+  font-weight: bold;
+  margin: 1em;
+}
+
+p {
+  margin: 1em;
+}
+/* HEADER */
+
+header {
+  background-color: black;
+  padding: 2em;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#logo {
+  width: 8em;
+  height: auto;
+  display: block;
+  text-align: left;
+}
+
+/* BODY */
+#top-box {
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  padding: 15em;
+}
+
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", serif;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  display: inline-block;
+  padding: 1em;
+  cursor: pointer;
+}
+
+#round {
+  border-radius: 50em;
+  margin: auto;
+  width: 20%;
+}
+
+.sides {
+  display: inline-block;
+  height: 50%;
+  width: 30%;
+  margin: 5em;
+}
+
+.sides p,
+.sides h3 {
+  text-align: left;
+}
+
+/* SMALL BOXES */
+
+.small-box {
+  border: 2px rgb(230, 230, 230) solid;
+  border-radius: 10px;
+  margin: 2em;
+  display: inline-block;
+  height: 20%;
+  width: 20%;
+}
+
+.image-box {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.quotes {
+  background-color: #e22d0e;
+  color: white;
+  padding: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.quotes h1 {
+  color: white;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 2em;
+}
+
+.quotes h3 {
+  color: white;
+  font-weight: normal;
+  font-size: 1.5em;
+  margin: 0em;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #25a2c3;
+  padding: 1em;
+}
+
+footer a {
+  color: white;
+  line-height: 0.5em;
+}
+footer p {
+  line-height: 0.5em;
+  font-weight: lighter;
+  color: white;
+}
+
+footer h1 {
+  color: white;
+}
+
+.fa-solid {
+  color: white;
+  line-height: 0.5;
+}
+
+hr {
+  width: 15%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.small-font {
+  font-size: small;
+}
